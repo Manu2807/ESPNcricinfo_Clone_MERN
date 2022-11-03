@@ -1,6 +1,6 @@
 ## ** Problem statement**
 <br>
-Our Problem statement is creating a pixel-perfect clone of [espncricinfo](https://www.espncricinfo.com/). Previously we did a clone of a few web pages but in this problem, we were supposed to make pages dynamic.
+Our Problem statement is creating a pixel-perfect clone of [espncricinfo](https://www.espncricinfo.com/). Previously we did a clone of a few web pages but in this problem, we were supposed to make pages dynamic and make the back end od the website.
 
 ## ** The Idea**
 <br>
