@@ -36,7 +36,7 @@ const Playerlist = ({ team1, team2 }) => {
   const [display, setdisplay] = React.useState("none");
 
   React.useEffect(() => {
-    fetch(`https://rupesh-team.herokuapp.com/items?_page=${page}&_limit=4`)
+    fetch(`https://espn-fantasy.onrender.com/items?_page=${page}&_limit=4`)
       .then((res) => res.json())
       .then((res) => setplayer(res))
       .catch((err) => console.log(err));
@@ -119,7 +119,7 @@ const Playerlist = ({ team1, team2 }) => {
       setdisplay("");
     } else {
       setTeamfn(playerlist);
-      fetch("https://rupesh-team.herokuapp.com/player", {
+      fetch("https://espn-fantasy.onrender.com/player", {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
