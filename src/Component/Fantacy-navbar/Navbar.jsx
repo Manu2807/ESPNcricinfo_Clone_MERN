@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 
 const NavbarFant = () => {
   return (
-    <Box>
+    <Box 
+    pos='fixed'
+    >
       <Box
         borderRadius="base"
         backgroundColor="#5217b0"
@@ -18,12 +20,7 @@ const NavbarFant = () => {
         w="40%"
       >
         <Avatar size="sm" src="https://bit.ly/broken-link" />
-        <Image
-          ml="30%"
-          h="5"
-          w="50"
-          src="https://espn.wonderwins.com/assets/images/header_logo.png"
-        ></Image>
+       
       </Box>
       <Box>
         <Tabs p="-1px 15px" pos="fixed" w="40%" zIndex="modal" bottom="0%">

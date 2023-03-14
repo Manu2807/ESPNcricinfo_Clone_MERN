@@ -8,8 +8,10 @@ const Sideimg = () => {
           h="100vh"
           right="0px"
           width="60%"
-          src="https://espn.wonderwins.com/assets/images/main_bg.jpg"
-          alt=""
+          src="https://images.unsplash.com/photo-1522778590545-a5a925dcf6f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+          alt="Fantasy Image"
+          objectFit="cover"
+          
         />
         <Box
           zIndex="2"
@@ -22,27 +24,18 @@ const Sideimg = () => {
           position="fixed"
           top="27%"
         >
-          <Image
+          {/* <Image
             w="40"
             src="https://espn.wonderwins.com/assets/images/main_logo.png"
-          />
+          /> */}
           <Flex gap="5" flexDirection="row">
-            <Heading color="white">INDIA'S COOLEST</Heading>
+            <Heading color="yellow">INDIA'S COOLEST</Heading>
             <Heading color="yellow">FANTASY PLATFORM</Heading>
           </Flex>
           <Heading size="md" color="white">
             Download the App
           </Heading>
-          <Flex gap="4">
-            <Image
-              w="48"
-              src="https://espn.wonderwins.com/assets/images/android_icon.png"
-            />
-            <Image
-              w="48"
-              src="https://espn.wonderwins.com/assets/images/ios_icon.png"
-            />
-          </Flex>
+        
         </Box>
       </h1>
     );
