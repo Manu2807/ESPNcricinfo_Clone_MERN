@@ -22,6 +22,9 @@ const Signup = () => {
   };
 
   const signupfn = () => {
+    if(!form.name&&!form.email&&!form.password){
+      alert("Please fill the information")
+    }
     let newform = JSON.stringify(form);
     console.log(newform);
     fetch("https://dark-gold-firefly-gear.cyclic.app/user/", {
