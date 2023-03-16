@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const NavbarFant = () => {
   return (
     <Box 
-    pos='fixed'
+   
     >
       <Box
         borderRadius="base"

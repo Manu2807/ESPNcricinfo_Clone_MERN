@@ -159,7 +159,7 @@ const Playerlist = ({ team1, team2 }) => {
       >
         <Image
           w="40"
-          src="https://espn.wonderwins.com/assets/images/main_logo.png"
+          src="https://images.unsplash.com/photo-1522778590545-a5a925dcf6f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
         />
         <Flex gap="5" flexDirection="row">
           <Heading color="white">INDIA'S COOLEST</Heading>
@@ -168,7 +168,7 @@ const Playerlist = ({ team1, team2 }) => {
         <Heading size="md" color="white">
           Download the App
         </Heading>
-        <Flex gap="4">
+        {/* <Flex gap="4">
           <Image
             w="48"
             src="https://espn.wonderwins.com/assets/images/android_icon.png"
@@ -177,7 +177,7 @@ const Playerlist = ({ team1, team2 }) => {
             w="48"
             src="https://espn.wonderwins.com/assets/images/ios_icon.png"
           />
-        </Flex>
+        </Flex> */}
       </Box>
       <Box display="flex">
         <Box h="100vh" display="flex" flexDirection="column" gap="5">
